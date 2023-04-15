@@ -1,0 +1,58 @@
+.container.testomonial_container {
+  width: 40%;
+  padding-bottom: 4rem;
+  /* display:block; */
+}
+.client_avatar :hover {
+  transform: scale(2);
+  transition: 1s ease-out;
+}
+
+.client_avatar {
+  width: 400px;
+  /* height: 100px; */
+  /* background-image: "./certi1.jpg"; */
+  /* aspect-ratio: 1/1; */
+  margin: 0 auto 1rem;
+  border-radius: 5%;
+  overflow: hidden;
+  border: 0.4rem solid var(--color-primary-variant);
+}
+
+.client {
+  width: 200;
+  background: var(--color-bg-variant);
+  text-align: center;
+  border-radius: 2rem;
+  padding: 2rem;
+  user-select: none;
+}
+
+.client_review {
+  color: var(--color-light);
+  display: block;
+  font-weight: 300;
+  width: 80%;
+  margin: 0.8rem auto 0;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+  background: var(--color-primary);
+}
+
+@media screen and(max-width:1024px) {
+  .container.testomonial_container {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container.testomonial_container {
+    width: var(--container-width-sm);
+  }
+  .client_avatar {
+    width: 300px;
+    /* /* /* height: 200px;  ; */
+    margin: rem;
+  }
+}
